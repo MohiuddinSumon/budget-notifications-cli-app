@@ -86,7 +86,7 @@ optional arguments:
 * **python main.py -db db_host db_user db_password db_name db_port** **(_This will create database connection_)**
 * **python main.py -si y** **(_This will seed initial data from `db.sql` file and apply migration from `migration.sql` file_)**
 * **python main.py -sc y YYYY-MM-DD** **(_This will seed some more budget data for given date months first date_)
-* **python main.py -shas y** **(_This will show all available shops details data_)**
+* **python main.py -shs y** **(_This will show all available shops details data_)**
 * **python main.py -sha y** **(_This will show all available shops data including budget details_)**
 * **python main.py -sho y** **(_This will show all online shops data including budget details_)**
 * **python main.py -nf y all ""** **(_This notify shops those monthly expenditure reaches certain thresholds based on all budget month data_)**
