@@ -1,5 +1,5 @@
-DB_HOST = "localhost"
-DB_USER = "sabil"
-DB_PASS = "password"
-DB_NAME = "stylight_db"
+DB_HOST = ""
+DB_USER = ""
+DB_PASS = ""
+DB_NAME = ""
 DB_PORT = 3306
