@@ -82,18 +82,18 @@ optional arguments:
 ```
 
 ## Project Execution Commands
-* **python main.py -h** **(_This will show all available CLI commands_)**
-* **python main.py -db db_host db_user db_password db_name db_port** **(_This will create database connection_)**
-* **python main.py -si y** **(_This will seed initial data from `db.sql` file and apply migration from `migration.sql` file_)**
-* **python main.py -sc y YYYY-MM-DD** **(_This will seed some more budget data for given date months first date_)
-* **python main.py -shs y** **(_This will show all available shops details data_)**
-* **python main.py -sha y** **(_This will show all available shops data including budget details_)**
-* **python main.py -sho y** **(_This will show all online shops data including budget details_)**
-* **python main.py -nf y all ""** **(_This notify shops those monthly expenditure reaches certain thresholds based on all budget month data_)**
-* **python main.py -nf y current YYYY-MM-DD** **(_This notify shops those monthly expenditure reaches certain thresholds based on given dates month data_)**
-* **python main.py -up shop_id budget_amount YYYY-MM-DD** **(_This will update shops monthly budget based on given date_)**
-* **python main.py -re y** **(_This will restore all data from `db.sql` file_)**
-* **python main.py -cl y** **(_This close database connection_)**
+* **python main.py -h** _This will show all available CLI commands_
+* **python main.py -db db_host db_user db_password db_name db_port** _This will create database connection_
+* **python main.py -si y** _This will seed initial data from `db.sql` file and apply migration from `migration.sql` file_
+* **python main.py -sc y YYYY-MM-DD** _This will seed some more budget data for given date months first date_)
+* **python main.py -shs y** _This will show all available shops details data_
+* **python main.py -sha y** _This will show all available shops data including budget details_
+* **python main.py -sho y** _This will show all online shops data including budget details_
+* **python main.py -nf y all ""** _This notify shops those monthly expenditure reaches certain thresholds based on all budget month data_
+* **python main.py -nf y current YYYY-MM-DD** _This notify shops those monthly expenditure reaches certain thresholds based on given dates month data_
+* **python main.py -up shop_id budget_amount YYYY-MM-DD** _This will update shops monthly budget based on given date_
+* **python main.py -re y** _This will restore all data from `db.sql` file_
+* **python main.py -cl y** _This close database connection_
 
 > **Notes:**\
 > **You can replace YYYY-MM-DD with empty string like "". If you use empty string then it will use current date as input.**
