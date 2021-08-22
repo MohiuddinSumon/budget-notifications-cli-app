@@ -3,7 +3,7 @@ It's a Python CLI application to notify if any shops budget
 
 # Schema Details
 ## Table Schema
-We have database schema consists of two tables: Shops and budgets.
+We have database schema consists of two tables: **Shops** and **Budgets**.
 
 ### Shops
 The table `t_shops` holds master data about all the shops in our system.
