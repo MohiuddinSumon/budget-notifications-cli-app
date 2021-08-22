@@ -86,6 +86,7 @@ optional arguments:
 * **python main.py -db db_host db_user db_password db_name db_port** **(_This will create database connection_)**
 * **python main.py -si y** **(_This will seed initial data from `db.sql` file and apply migration from `migration.sql` file_)**
 * **python main.py -sc y YYYY-MM-DD** **(_This will seed some more budget data for given date months first date_)
+* **python main.py -shas y** **(_This will show all available shops details data_)**
 * **python main.py -sha y** **(_This will show all available shops data including budget details_)**
 * **python main.py -sho y** **(_This will show all online shops data including budget details_)**
 * **python main.py -nf y all ""** **(_This notify shops those monthly expenditure reaches certain thresholds based on all budget month data_)**
@@ -93,6 +94,10 @@ optional arguments:
 * **python main.py -up shop_id budget_amount YYYY-MM-DD** **(_This will update shops monthly budget based on given date_)**
 * **python main.py -re y** **(_This will restore all data from `db.sql` file_)**
 * **python main.py -cl y** **(_This close database connection_)**
+
+> **Notes:**\
+> **You can replace YYYY-MM-DD with empty string like "". If you use empty string then it will use current date as input.**
+
 
 ## Project Features
 * Notify shops when they reach 50% or 100% of the month's budget
@@ -105,9 +110,6 @@ Yes, it does. Implement a notification flag to trace if the shop already notifie
 ### How does your solution handle a budget change after a notification has already been sent?
 When processed a budget update request this application check if the updated budget is enough to maintain the expense and budget ratio or not.
 It also notify shop accordingly with updated budget details.
-
-> **Notes:**\
-> **You can replace YYYY-MM-DD with empty string like "". If you use empty string then it will use current date as input.**
 
 ## Sample CLI Commands and Outputs
 
