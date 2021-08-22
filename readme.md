@@ -28,6 +28,7 @@ The table `t_budgets` holds all shops' monthly budgets.
 The amounts spent for the current month are continuously updated until the month ends. Assume a part of the system is already doing that. You may assume all monetary values are in the same currency.
 
 # Project Execution Guideline
+Please follow the following guideline to execute this CLI application
 
 ## System Requirements
 * `Python Version >= 3.8`
