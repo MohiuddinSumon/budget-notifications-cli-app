@@ -106,7 +106,7 @@ Yes, it does. Implement a notification flag to trace if the shop already notifie
 When processed a budget update request this application check if the updated budget is enough to maintain the expense and budget ratio or not.
 It also notify shop accordingly with updated budget details.
 
-> ###**Notes:**
+> **Notes:**\
 > **You can replace YYYY-MM-DD with empty string like "". If you use empty string then it will use current date as input.**
 
 ## Sample CLI Commands and Outputs
